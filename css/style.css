@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+header{
+    width: 100%;
+    height: 130px;
+}
+
+h1{
+    font-family: Lobster;
+    font-size: 49px;
+    color:#109E97;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 33px;
+    
+}
+
+.navbar{
+    background-color: #109E97;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:15px ;
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: roboto; 
+    font-size: 16px;
+    
+}
+
+.inside{
+    width: 52%;
+    height: 60px;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+
+.library{
+    width: 300px;
+    height: 391px;
+    margin-right: 100px;
+}
+
+
+.container{
+    width: 100%;
+    height: 628px;
+    display: flex;
+    background-image: url("/BookShop/Rectangle.svg");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph{
+    width: 551px;
+    height: 446px;
+}
+
+button{
+    width: 148px;
+    height: 44px;
+    background-color: #109E97;
+    color: white;
+    font-family: roboto;
+    font-size: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 19px;
+    border: 1px solid;
+}
+
+
+h2{
+    font-size: 32px;
+    font-family: roboto;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 48px;
+    margin-bottom: 53px;
+}
+
+.books{
+    width: 900px;
+    height: 1355px;
+    border: 2px solid #916A6A;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.books > div{
+    border: 1px solid #109E97;
+    padding: 50px;
+    margin: 30px;
+
+}
+
+.containerbooks{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    border: 0.5px solid black;
+}
+.sechr{
+    margin-top: 80px;
+}
+
+footer{
+    width: 100%;
+    height: 98px;
+    background-color: #109E97;
+    color: white;
+    font-size: 16px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book1>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book1>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book2>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book2>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book3>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book3>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book4>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book4>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book5>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book5>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book6>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book6>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book7>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book7>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book8>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book8>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
+
+.book9>p{
+    font-size: 15px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book9>a{
+    font-size: 15px;
+    font-family: roboto;
+    color:#0000EE;
+    display: flex;
+    justify-content: center;
+}
